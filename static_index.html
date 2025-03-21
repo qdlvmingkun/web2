@@ -1,0 +1,39 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>汇率监控</title>
+            <meta charset="utf-8">
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1 { color: #333; }
+                .rate-box { 
+                    border: 1px solid #ddd; 
+                    padding: 15px; 
+                    margin-top: 20px;
+                    border-radius: 5px;
+                    background-color: #f9f9f9;
+                }
+                .rate { font-size: 24px; color: #007bff; }
+                .timestamp { color: #666; font-size: 14px; }
+                .export-btn {
+                    display: inline-block;
+                    margin-top: 20px;
+                    padding: 10px 15px;
+                    background-color: #28a745;
+                    color: white;
+                    text-decoration: none;
+                    border-radius: 4px;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>美元对人民币汇率监控</h1>
+            <div class="rate-box">
+                <div>最新汇率: <span class="rate">7.2495</span></div>
+                <div class="timestamp">更新时间: 2025-03-21 14:58:09</div>
+            </div>
+            <a href="/export_mat" class="export-btn">导出数据</a>
+        </body>
+        </html>
+        
